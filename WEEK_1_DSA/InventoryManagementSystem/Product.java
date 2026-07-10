@@ -1,0 +1,21 @@
+class Product {
+
+    int productId;
+    String productName;
+    int quantity;
+    double price;
+
+    Product(int productId, String productName, int quantity, double price) {
+        this.productId = productId;
+        this.productName = productName;
+        this.quantity = quantity;
+        this.price = price;
+    }
+
+    void display() {
+        System.out.println(productId + " " +
+                productName + " " +
+                quantity + " " +
+                price);
+    }
+}
